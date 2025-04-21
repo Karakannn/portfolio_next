@@ -17,7 +17,7 @@ interface Props {
   }[];
 }
 
-export function HackathonCard({ title, description, dates, location, image, links }: Props) {
+export function ProjectCard({ title, description, dates, location, image, links }: Props) {
   const getIconComponent = (iconName: string) => {
     const normalizedIconName = iconName.toLowerCase().trim();
 

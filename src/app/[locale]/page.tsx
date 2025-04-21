@@ -1,14 +1,12 @@
-import { HackathonCard } from "@/components/hackathon-card";
+import { ProjectCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { useTranslations } from "next-intl";
-import { useLocale } from "next-intl";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -181,7 +179,7 @@ export default function Page() {
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {projects.map((project, id) => (
                 <BlurFade key={project.title + project.dates} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
-                  <HackathonCard
+                  <ProjectCard
                     title={project.title}
                     description={project.description}
                     location={project.location}
