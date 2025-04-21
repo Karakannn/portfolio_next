@@ -101,7 +101,7 @@
       "school": "Harvard University",
       "href": "https://certificates.cs50.io/511a1675-ed24-4349-929a-c63549814410.pdf?size=letter",
       "logoUrl": "/harvard.jpg",
-      "degree": "CS50 Bilgisayar Bilimlerine Giriş",
+      "degree": "CS50 Introduction to Computer Science",
       "start": "2024",
       "end": "2025"
     },
@@ -330,7 +330,7 @@
     "projectsTitle": "Geliştirdiğim Projeler",
     "projectsDescription": "Burada göreceğiniz projeler, farklı teknolojiler ve yaklaşımlarla geliştirdiğim çalışmalarımdan seçkiler. Her proje, belirli bir probleme çözüm getirmek veya bir ihtiyacı karşılamak amacıyla tasarlandı ve geliştirildi.",
     "experienceTitle": "Deneyim",
-    "educationTitle": "Eğitim",
+    "educationTitle": "Eğitimler",
     "languageSwitcher": "Dil Değiştir"
   }
 }
