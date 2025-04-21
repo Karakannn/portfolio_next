@@ -1,0 +1,336 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm {name} 👋"
+  },
+  "common": {
+    "present": "Present"
+  },
+  "personal": {
+    "name": "Emin",
+    "initials": "MEK",
+    "url": "https://mehmeteminkarakan.vercel.app",
+    "location": "Istanbul/Turkey",
+    "description": "I love coding, designing user experiences, and continuous learning. Frontend-focused full-stack developer.",
+    "summary": "In my journey that began in 2017, I specialized in [JavaScript and TypeScript](#education). These days I'm mostly working with [Next.js and React](#education). Previously, I [worked in 2D/3D game development](#education) and [participated in many international projects](#education). My biggest principle is writing quality code rather than just saying ['make it work'](#education), so I constantly research and stay up-to-date. I'm always excited about following where software is heading. I especially [love taking complex problems and solving them with software](#education).",
+    "avatarUrl": "/profile_photo.jpg"
+  },
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "React",
+    "Redux",
+    "Zustand",
+    "Figma",
+    "Angular",
+    "SolidJS",
+    "Svelte",
+    "PHP",
+    "Node.js",
+    "Nest.js",
+    "SQL",
+    "Laravel",
+    "Zustand",
+    "HTML5",
+    "CSS3 • SASS",
+    "Tailwind CSS",
+    "Git",
+    "Azure",
+    "CI/CD",
+    "Jest",
+    "Docker",
+    "RESTful API",
+    "Unit Testing",
+    "OOP",
+    "Unreal Engine",
+    "Game Development",
+    "Microservices",
+    "WebSocket"
+  ],
+  "navigation": {
+    "navbar": [{ "href": "/", "icon": "HomeIcon", "label": "Home" }]
+  },
+  "work": [
+    {
+      "company": "EAE Group",
+      "href": "https://www.eaeelectric.com/",
+      "badges": [],
+      "logoUrl": "/eae.webp",
+      "location": "Istanbul/Turkey",
+      "title": "Senior Software Developer",
+      "start": "September 2023",
+      "end": "Present",
+      "description": "• Introduced Next.js, React, and TypeScript technologies to the company, established modern component architecture and improved code quality, providing uninterrupted service to 30,000+ monthly users. \n\n• Developed a comprehensive design system for corporate websites, creating reusable components, color palette, grid system, etc., reducing design preparation time by 60% and accelerating project development processes. \n\n• Created the products section for a company with 40,000+ product range, building an advanced UI/UX infrastructure with a fast quote request system, increasing website traffic by 20% and enabling millions of dollars in potential product sales. \n\n• Utilized server-side rendering and static site generation features, optimizing page loading times and implementing SEO-friendly structures, significantly increasing search engine visibility and enhancing user experience. \n\n• Set up CI/CD pipelines and automated deployment processes on Vercel and Plesk platforms, integrating custom runners and test automation, reducing development-to-production transition time by 70% and improving code quality."
+    },
+    {
+      "company": "Upwork",
+      "href": "https://www.upwork.com/",
+      "badges": [],
+      "logoUrl": "/upwork.jpg",
+      "location": "Remote",
+      "title": "Senior Full-Stack Developer",
+      "start": "November 2020",
+      "end": "Present",
+      "description": "• Developed web applications for clients from the USA, United Kingdom, Canada, and various countries, using React, Vue, TypeScript, Javascript, Node.js, and PHP technologies to create custom solutions based on client requirements, achieving 100% customer satisfaction and 100% Job Success Score. \n\n• Created structures that establish efficient communication between frontend and backend systems using RESTful APIs, ensuring performant and reliable data flow."
+    },
+    {
+      "company": "Falcon Gaming",
+      "badges": [],
+      "logoUrl": "/falcon.jpg",
+      "href": "https://shopify.com",
+      "location": "Skopje, North Macedonia",
+      "title": "Front-end / Game Developer",
+      "start": "October 2020",
+      "end": "November 2022",
+      "description": "• Designed and developed frontend architecture for numerous 2D and 3D web games from scratch, creating modular and performance-focused code using TypeScript and Javascript, increasing company recognition and gaining 10,000+ new users. \n\n• Wrote comprehensive unit tests using Jest and Testing Library, creating automated test scenarios, reducing error rates by 40% and improving software reliability. \n\n• Developed scalable applications using SolidJS, Angular and Svelte, implementing component-based architecture and state management tools like Zustand, accelerating software development processes by 20%. \n\n• Implemented RESTful API integrations, ensuring efficient data flow with backend services, optimizing page loading times and enhancing user experience."
+    },
+    {
+      "company": "Stabit",
+      "href": "https://splunk.com",
+      "badges": [],
+      "logoUrl": "/stabit.jpg",
+      "location": "San Jose, CA",
+      "title": "Full Stack Developer",
+      "start": "January 2020",
+      "end": "April 2020",
+      "description": "• Developed a cryptocurrency exchange website and management panel, using Laravel for both Frontend and Backend, playing a critical role in launching the company's first MVP product. \n\n• Created SQL database structures, utilizing complex queries and relational database architecture, improving application performance and maintaining data integrity. \n\n• Implemented Paxos cryptocurrency payment system integration, working with secure transaction protocols and financial APIs, providing users with secure and seamless financial transaction capabilities."
+    }
+  ],
+  "education": [
+    {
+      "school": "Harvard University",
+      "href": "https://certificates.cs50.io/511a1675-ed24-4349-929a-c63549814410.pdf?size=letter",
+      "logoUrl": "/harvard.jpg",
+      "degree": "CS50 Introduction to Computer Science",
+      "start": "2023",
+      "end": "2024"
+    },
+    {
+      "school": "Marmara University",
+      "href": "https://www.marmara.edu.tr/",
+      "logoUrl": "/marmara.png",
+      "degree": "Labor Economics and Industrial Relations",
+      "start": "2016",
+      "end": "2023"
+    },
+    {
+      "school": "Anadolu University",
+      "href": "https://www.anadolu.edu.tr/en",
+      "logoUrl": "/anadolu.jpg",
+      "degree": "Web Design and Coding",
+      "start": "2018",
+      "end": "2020"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Easy Support Systems (Client - Backoffice)",
+      "dates": "June 10th, 2017",
+      "location": "Istanbul, Turkey",
+      "image": "/support_system.jpg",
+      "description": "Using React, TypeScript, and .NET technologies, we transformed a complex product group with thousands of possible combinations (over 28,000+) into a structure where users could complete their desired configuration with just a few selections. \n\nI created a modern design with Figma. The result was a highly specific and useful application with dozens of different parameters (load calculations, product compatibility, dynamic product relationships based on feature changes).",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://aski-front.vercel.app/"
+        }
+      ]
+    },
+    {
+      "title": "EAE Interactive Solutions",
+      "dates": "May 19th - 21st, 2017",
+      "location": "Istanbul, Turkey",
+      "image": "/eae.webp",
+      "description": "I developed a site using React and TypeScript technologies where users can navigate interactively. For this site built entirely around videos and images, I implemented lazy-loading and dynamic loading to achieve high performance, transforming a website with heavy video traffic into a creative and enjoyable experience for users.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://www.eaeelectric.com/solutions"
+        },
+        {
+          "title": "Youtube",
+          "icon": "youtube",
+          "href": "https://www.youtube.com/shorts/lcHkZo0waW8"
+        },
+        {
+          "title": "Linkedin",
+          "icon": "linkedin",
+          "href": "https://www.linkedin.com/posts/eaegroup_discover-our-solutions-with-our-interactive-ugcPost-7201483082179252225-Va_B?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz-cvEBpWPPUIfYQcHoKVg5iE4jQ1IncE8"
+        }
+      ]
+    },
+    {
+      "title": "EAE Corporate",
+      "dates": "May 12th - 14th, 2017",
+      "location": "Istanbul, Turkey",
+      "image": "/eae.webp",
+      "description": "I led the integration of Next.js, React, and TypeScript technologies for the company. The modern architecture provided uninterrupted service to over 30,000 users. I accelerated processes by creating comprehensive design systems for corporate websites with Figma. \n\nI designed a product section with a practical quote request mechanism for a company with more than 40,000 products. I improved SEO performance with server-side rendering and static site generation techniques. The improvements in CI/CD processes resulted in a 70% reduction in development-to-production transition time.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://www.eaeelectric.com/"
+        }
+      ]
+    },
+    {
+      "title": "Haunted House",
+      "dates": "May 5th - 7th, 2017",
+      "location": "Skopje, North Macedonia",
+      "image": "/haunted_house.jpg",
+      "description": "This was a hobby project using Javascript, THREE.js, and WebGL technologies. Without using any models, the houses and structures were created using only geometry, while ghost movements were generated using sine waves. Don't forget to explore! ☺️",
+      "links": [
+        {
+          "title": "Source",
+          "icon": "github",
+          "href": "https://github.com/Karakannn/hauntedHouse"
+        },
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://myhountedhouse.netlify.app/"
+        }
+      ]
+    },
+    {
+      "title": "Galaxy Generator",
+      "dates": "April 28th - 30th, 2017",
+      "location": "Skopje, North Macedonia",
+      "image": "/galaxy_generator.jpg",
+      "description": "I developed a customizable galaxy creation website as a hobby project using Javascript, THREE.js, and WebGL. Using particle geometry, I provided the ability to create various variations with different colors and sizes. Don't forget to visit and experiment with it. 🌌",
+      "links": [
+        {
+          "title": "Source",
+          "icon": "github",
+          "href": "https://github.com/Karakannn/galaxyGenerator"
+        },
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://mygalaxygenerator.netlify.app/"
+        }
+      ]
+    },
+    {
+      "title": "Raptor",
+      "dates": "March 24th - 26th, 2017",
+      "location": "Skopje, North Macedonia",
+      "image": "/raptor.png",
+      "description": "Using Angular, Phaser.js, TypeScript, and WebSocket technologies, I designed RNG-based scenes and animations that could interact with live users. A space simulation was created using different visuals in a random manner.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://falcongaming.io/"
+        }
+      ]
+    },
+    {
+      "title": "Bingo",
+      "dates": "March 4th - 5th, 2017",
+      "location": "Skopje, North Macedonia",
+      "image": "/bingo.png",
+      "description": "I developed an application with Svelte, TypeScript, WebSocket, and WebRTC where users can purchase and track cards. Three different modes were created: Automatic, Yummy, and Live. Using extensive WebSocket and WebRTC technologies, a seamless experience was provided to users.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://falcongaming.io/"
+        }
+      ]
+    },
+    {
+      "title": "Shell Game",
+      "dates": "February 3rd - 5th, 2017",
+      "location": "Skopje, North Macedonia",
+      "image": "/shell.png",
+      "description": "I prepared a complete 3D scene experience using Angular, TypeScript, and THREE.js. I created detailed animations using only cup numbers with trigonometry and Curve geometries. With HTML5, I designed detailed areas such as game history, amount changes, and time tracking with a UI that could interact with the scene.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://falcongaming.io/"
+        }
+      ]
+    },
+    {
+      "title": "Stabit",
+      "dates": "Jan 11, 2021 - Apr 21, 2021",
+      "location": "Freelance",
+      "image": "/stabit.jpg",
+      "description": "For a Dubai-based company, we developed a cryptocurrency exchange management panel with Laravel, playing a critical role in launching the company's first MVP product. I created SQL database structures using complex queries and relational database architecture, improving application performance and maintaining data integrity. \n\nI implemented Paxos cryptocurrency payment system integration, working with secure transaction protocols and financial APIs, providing users with secure and seamless financial transaction capabilities.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://stabit.com/"
+        }
+      ]
+    },
+    {
+      "title": "nQodit",
+      "dates": "Nov 15, 2020 - Dec 8, 2020",
+      "location": "Freelance",
+      "image": "/nqodit.png",
+      "description": "For a US-based company, I designed and coded a Single Page Application (SPA) with intensive animations and effects using HTML, CSS, and Javascript.",
+      "links": [
+        {
+          "title": "Source",
+          "icon": "github",
+          "href": "https://github.com/Karakannn/nQodit"
+        },
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://nqod.it/index.htm"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "eminkarakan0@gmail.com",
+    "tel": "+123456789",
+    "social": {
+      "GitHub": {
+        "name": "GitHub",
+        "url": "https://github.com/Karakannn",
+        "icon": "Icons.github",
+        "navbar": true
+      },
+      "LinkedIn": {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mehmet-emin-k-a1597b190/",
+        "icon": "Icons.linkedin",
+        "navbar": true
+      },
+      "X": {
+        "name": "X",
+        "url": "https://x.com/MehmetE08339585",
+        "icon": "Icons.x",
+        "navbar": true
+      },
+      "email": {
+        "name": "Send Email",
+        "url": "mailto:eminkarakan0@gmail.com",
+        "icon": "Icons.email",
+        "navbar": false
+      }
+    }
+  },
+  "ui": {
+    "skillsTitle": "Skills",
+    "contactBadge": "Contact",
+    "contactTitle": "Reach Me",
+    "contactDescription": "Ask a direct question on Twitter",
+    "contactLinkText": "and I'll respond when I have the opportunity.",
+    "aboutTitle": "About",
+    "projectsBadge": "Projects",
+    "projectsTitle": "All Projects",
+    "projectsDescription": "The projects you see here are selections from my work developed with different technologies and approaches. Each project was designed and developed to solve a specific problem or meet a particular need.",
+    "experienceTitle": "Experience",
+    "educationTitle": "Education",
+    "languageSwitcher": "Change Language"
+  }
+}

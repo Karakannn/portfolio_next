@@ -1,0 +1,336 @@
+{
+  "hero": {
+    "greeting": "Merhaba, Ben {name} 👋"
+  },
+  "common": {
+    "present": "Devam Ediyor"
+  },
+  "personal": {
+    "name": "Emin",
+    "initials": "MEK",
+    "url": "https://mehmeteminkarakan.vercel.app",
+    "location": "İstanbul/Türkiye",
+    "description": "Kod yazmayı, kullanıcı deneyimini tasarlamayı ve sürekli öğrenmeyi seviyorum. Frontend ağırlıklı full-stack geliştirici.",
+    "summary": "2017'de başladığım yolculukta [JavaScript ve TypeScript](#education) tarafında uzmanlaştım. Bugünlerde çoğunlukla [Next.js ve React](#education) ile uğraşıyorum. Daha önceden [2D/3D oyun geliştirme alanında çalıştım](#education) ve [birçok uluslararası projede bulundum](#education). En büyük prensibim ['çalışsın'](#education) demek yerine kaliteli kod yazmak, bu yüzden sürekli araştırmaya ve güncel kalmaya çalışıyorum. Yazılımın gittiği yeri takip etmek beni her zaman heyecanlandırıyor. Özellikle de [karmaşık sorunları alıp bunları yazılım ile çözmeyi](#education) gerçekten seviyorum.",
+    "avatarUrl": "/profile_photo.jpg"
+  },
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "React",
+    "Redux",
+    "Zustand",
+    "Figma",
+    "Angular",
+    "SolidJS",
+    "Svelte",
+    "PHP",
+    "Node.js",
+    "Nest.js",
+    "SQL",
+    "Laravel",
+    "Zustand",
+    "HTML5",
+    "CSS3 • SASS",
+    "Tailwind CSS",
+    "Git",
+    "Azure",
+    "CI/CD",
+    "Jest",
+    "Docker",
+    "RESTful API",
+    "Unit Testing",
+    "OOP",
+    "Unreal Engine",
+    "Game Development",
+    "Microservices",
+    "WebSocket"
+  ],
+  "navigation": {
+    "navbar": [{ "href": "/", "icon": "HomeIcon", "label": "Ana Sayfa" }]
+  },
+  "work": [
+    {
+      "company": "EAE Group",
+      "href": "https://www.eaeelectric.com/",
+      "badges": [],
+      "logoUrl": "/eae.webp",
+      "location": "İstanbul/Türkiye",
+      "title": "Senior Software Developer",
+      "start": "Eylül 2023",
+      "end": "Devam Ediyor",
+      "description": "• Şirkete Next.js, React ve TypeScript teknolojilerini tanıttım, modern komponent mimarisi kurdum ve kod kalitesini artırdım, aylık 30.000+ kullanıcıya kesintisiz hizmet sağladım. \n\n• Kurumsal web siteleri için kapsamlı bir tasarım sistemi geliştirdim, yeniden kullanılabilir bileşenler, renk paleti, grid sistemi vb. oluşturarak tasarım hazırlama süresini %60 azalttım ve proje geliştirme süreçlerini hızlandırdım. \n\n• 40.000+ ürün yelpazesine sahip bir şirket için hızlı teklif talep sistemi ile gelişmiş bir UI/UX altyapısı oluşturarak ürünler bölümünü yarattım, web sitesi trafiğini %20 artırdım ve potansiyel olarak milyonlarca dolarlık ürün satışını mümkün kıldım. \n\n• Sunucu taraflı oluşturma ve statik site oluşturma özelliklerini kullanarak, sayfa yükleme sürelerini optimize ettim ve SEO dostu yapılar uygulayarak arama motoru görünürlüğünü önemli ölçüde artırdım ve kullanıcı deneyimini geliştirdim. \n\n• Vercel ve Plesk platformlarında CI/CD pipeline'ları ve otomatik dağıtım süreçleri kurdum, özel runner'lar ve test otomasyonu entegre ederek geliştirmeden üretime geçiş süresini %70 azalttım ve kod kalitesini artırdım."
+    },
+    {
+      "company": "Upwork",
+      "href": "https://www.upwork.com/",
+      "badges": [],
+      "logoUrl": "/upwork.jpg",
+      "location": "Uzaktan",
+      "title": "Kıdemli Full-Stack Geliştirici",
+      "start": "Kasım 2020",
+      "end": "Devam Ediyor",
+      "description": "• ABD, Birleşik Krallık, Kanada ve çeşitli ülkelerden müşteriler için web uygulamaları geliştirdim. React, Vue, TypeScript, Javascript, Node.js ve PHP teknolojilerini kullanarak müşteri gereksinimlerine dayalı özel çözümler oluşturdum, %100 müşteri memnuniyeti ve %100 İş Başarı Puanı elde ettim. \n\n• RESTful API'ler kullanarak frontend ve backend sistemleri arasında verimli iletişim kuran yapılar oluşturdum, performanslı ve güvenilir veri akışı sağladım."
+    },
+    {
+      "company": "Falcon Gaming",
+      "badges": [],
+      "logoUrl": "/falcon.jpg",
+      "href": "https://shopify.com",
+      "location": "Üsküp, Kuzey Makedonya",
+      "title": "Front-end / Oyun Geliştirici",
+      "start": "Ekim 2020",
+      "end": "Kasım 2022",
+      "description": "• Sıfırdan çok sayıda 2D ve 3D web oyunu için frontend mimarisi tasarladım ve geliştirdim, TypeScript ve Javascript kullanarak modüler ve performans odaklı kod oluşturdum, şirket tanınırlığını artırdım ve 10.000+ yeni kullanıcı kazandım. \n\n• Jest ve Testing Library kullanarak kapsamlı birim testleri yazdım, otomatik test senaryoları oluşturdum, hata oranlarını %40 azalttım ve yazılım güvenilirliğini artırdım. \n\n• SolidJS, Angular ve Svelte kullanarak ölçeklenebilir uygulamalar geliştirdim, Zustand gibi durum yönetimi araçlarıyla bileşen tabanlı mimari uygulayarak yazılım geliştirme süreçlerini %20 hızlandırdım. \n\n• RESTful API entegrasyonları uygulayarak backend hizmetleriyle verimli veri akışı sağladım, sayfa yükleme sürelerini optimize ettim ve kullanıcı deneyimini geliştirdim."
+    },
+    {
+      "company": "Stabit",
+      "href": "https://splunk.com",
+      "badges": [],
+      "logoUrl": "/stabit.jpg",
+      "location": "San Jose, CA",
+      "title": "Full Stack Geliştirici",
+      "start": "Ocak 2020",
+      "end": "Nisan 2020",
+      "description": "• Hem Frontend hem de Backend için Laravel kullanarak bir kripto para borsası web sitesi ve yönetim paneli geliştirdim, şirketin ilk MVP ürününün lansmanında kritik bir rol oynadım. \n\n• Karmaşık sorgular ve ilişkisel veritabanı mimarisi kullanarak SQL veritabanı yapıları oluşturdum, uygulama performansını artırdım ve veri bütünlüğünü sağladım. \n\n• Güvenli işlem protokolleri ve finansal API'lerle çalışarak Paxos kripto para ödeme sistemi entegrasyonunu uyguladım, kullanıcılara güvenli ve sorunsuz finansal işlem yetenekleri sağladım."
+    }
+  ],
+  "education": [
+    {
+      "school": "Harvard University",
+      "href": "https://certificates.cs50.io/511a1675-ed24-4349-929a-c63549814410.pdf?size=letter",
+      "logoUrl": "/harvard.jpg",
+      "degree": "CS50 Bilgisayar Bilimlerine Giriş",
+      "start": "2024",
+      "end": "2025"
+    },
+    {
+      "school": "Marmara Üniversitesi",
+      "href": "https://www.marmara.edu.tr/",
+      "logoUrl": "/marmara.png",
+      "degree": "Çalışma Ekonomisi ve Endüstri İlişkileri",
+      "start": "2016",
+      "end": "2023"
+    },
+    {
+      "school": "Anadolu Üniversitesi",
+      "href": "https://www.anadolu.edu.tr/en",
+      "logoUrl": "/anadolu.jpg",
+      "degree": "Web Tasarımı ve Kodlama",
+      "start": "2018",
+      "end": "2020"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Easy Support Systems (Client - Backoffice)",
+      "dates": "10 Haziran 2017",
+      "location": "İstanbul, Türkiye",
+      "image": "/support_system.jpg",
+      "description": "React, Typescript, .NET teknolojileri ile, kullanıcıların binlerce kombinasyon oluşturulabileceği (28.000+ üzerinde), zorlu bir ürün grubunu sadece birkaç seçimle istedikleri şekilde tamamlayabilecekleri bir yapıya döndüştürdük. \n\nFigma ile modern bir tasarım oluşturdum. Onlarca farklı parametre ile (yük hesaplamaları, ürünlerin birbirine uyumlu olması, ürünün en ufak özelliği değişince uyumlu olduğu ürünlerin değişmesi) gibi çok spesifik ve kullanışlı bir uygulama ortaya çıktı.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://aski-front.vercel.app/"
+        }
+      ]
+    },
+    {
+      "title": "EAE Interactive Solutions",
+      "dates": "19-21 Mayıs 2017",
+      "location": "İstanbul, Türkiye",
+      "image": "/eae.webp",
+      "description": "React, Typescript teknolojileri kullanılarak kullanıcının interaktif bir şekilde gezinebileceği bir site hazırladım. Tamamen video ve görseller üzerinden oluşan siteye lazy-loading ve dinamik yüklenmeler ile yüksek performans sağladım, bu şekilde kullanıcılar için yüksek video trafiği olan bir websitesi, yaratıcı ve keyifli bir deneyime dönüştürüldü.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://www.eaeelectric.com/solutions"
+        },
+        {
+          "title": "Youtube",
+          "icon": "youtube",
+          "href": "https://www.youtube.com/shorts/lcHkZo0waW8"
+        },
+        {
+          "title": "Linkedin",
+          "icon": "linkedin",
+          "href": "https://www.linkedin.com/posts/eaegroup_discover-our-solutions-with-our-interactive-ugcPost-7201483082179252225-Va_B?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz-cvEBpWPPUIfYQcHoKVg5iE4jQ1IncE8"
+        }
+      ]
+    },
+    {
+      "title": "EAE Coorporate",
+      "dates": "12-14 Mayıs 2017",
+      "location": "İstanbul, Türkiye",
+      "image": "/eae.webp",
+      "description": "Şirkete Next.js, React ve TypeScript teknolojilerinin entegrasyonunda öncülük ettim. Modern mimariyle 30.000'den fazla kullanıcıya sorunsuz hizmet sunuldu. Kurumsal web siteleri için Figma ile baştan sona tasarım sistemleri oluşturarak süreçleri hızlandırdım. \n\n40.000'i aşkın ürün çeşitliliği olan bir şirket için pratik teklif alma mekanizması içeren ürün bölümü tasarladım. Sunucu taraflı render ve statik site oluşturma teknikleriyle SEO performansını artırdım. CI/CD süreçlerindeki iyileştirmelerle geliştirme-üretim geçiş süresinde %70 tasarruf sağlandı.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://www.eaeelectric.com/"
+        }
+      ]
+    },
+    {
+      "title": "Haunted House",
+      "dates": "5-7 Mayıs 2017",
+      "location": "Üsküp, Kuzey Makedonya",
+      "image": "/haunted_house.jpg",
+      "description": "Javascript, THREE.js ve WebGL teknolojileri ile hobi amaçlı bir çalışma oldu. Herhangi bir model kullanmadan, evler ve yapılar sadece geometri, hayalet hareketleri ise sinüs dalgası ile oluşturuldu. Gezinmeyi unutmayın. ☺️",
+      "links": [
+        {
+          "title": "Source",
+          "icon": "github",
+          "href": "https://github.com/Karakannn/hauntedHouse"
+        },
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://myhountedhouse.netlify.app/"
+        }
+      ]
+    },
+    {
+      "title": "Galaxy Generator",
+      "dates": "28-30 Nisan 2017",
+      "location": "Üsküp, Kuzey Makedonya",
+      "image": "/galaxy_generator.jpg",
+      "description": "Javascript, THREE.js ve WebGL ile hobi amaçlı özelleştirilebilir bir galaksi hazırlama sitesi geliştirdim. Partikül geometrisi ile birlikte farklı renk ve boyutlarla çeşitli varyasyonlar oluşturulabilme imkanı sunuldu. Girip karıştırmayı unutmayın. 🌌",
+      "links": [
+        {
+          "title": "Source",
+          "icon": "github",
+          "href": "https://github.com/Karakannn/galaxyGenerator"
+        },
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://mygalaxygenerator.netlify.app/"
+        }
+      ]
+    },
+    {
+      "title": "Raptor",
+      "dates": "24-26 Mart 2017",
+      "location": "Üsküp, Kuzey Makedonya",
+      "image": "/raptor.png",
+      "description": "Angular, Phaser.js, Typescript ve WebSocket teknolojileri ile birlikte RNG tabanlı, canlı kullanıcılarla etkileşime girebilecek sahneler ve animasyonlar tasarlandı. Farklı görseller rastgele şekilde kullanılarak uzay simülasyonu oluşturuldu.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://falcongaming.io/"
+        }
+      ]
+    },
+    {
+      "title": "Bingo",
+      "dates": "4-5 Mart 2017",
+      "location": "Üsküp, Kuzey Makedonya",
+      "image": "/bingo.png",
+      "description": "Svelte, Typescript, WebSocket ve WebRTC ile birlikte kullanıcıların kart satın aldığı ve takip edebildiği bir uygulama geliştirdim. Otomatik, Yummy ve Canlı olarak 3 farklı mod oluşturuldu. Yoğun WebSocket ve WebRTC teknolojileri kullanılarak kullanıcılara kusursuz bir deneyim sunuldu.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://falcongaming.io/"
+        }
+      ]
+    },
+    {
+      "title": "Shell Game",
+      "dates": "3-5 Şubat 2017",
+      "location": "Üsküp, Kuzey Makedonya",
+      "image": "/shell.png",
+      "description": "Angular, Typescript ve THREE.js kullanılarak 3 boyutlu eksiksiz bir sahne deneyimi hazırladım. Trigonometri ve Curve geometrileri kullanılarak sadece bardak numaraları vererek detaylı animasyonlar hazırladım. HMTL5 ile sahne ile etkileşime girilebilecek UI ile birlikte oyun geçmişi, miktar değişikliği, süre takibi gibi detaylı alanlar tasarladım.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://falcongaming.io/"
+        }
+      ]
+    },
+    {
+      "title": "Stabit",
+      "dates": "11 Ocak 2021 - 21 Nisan 2021",
+      "location": "Freelance",
+      "image": "/stabit.jpg",
+      "description": "Dubai bazlı firmaya, Laravel ile kripto para borsası yönetim paneli geliştirdik, şirketin ilk MVP ürününün lansmanında kritik rol oynadım. Karmaşık sorgular ve ilişkisel veritabanı mimarisi kullanarak SQL veritabanı yapıları oluşturdum, uygulama performansını ve veri bütünlüğünü iyileştirdim. \n\nGüvenli işlem protokolleri ve finansal API'ler ile çalışarak Paxos kripto para ödeme sistemi entegrasyonunu gerçekleştirdim, kullanıcılara güvenli ve sorunsuz finansal işlem imkanları sağladım.",
+      "links": [
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://stabit.com/"
+        }
+      ]
+    },
+    {
+      "title": "nQodit",
+      "dates": "15 Kasım 2020 - 8 Aralık 2020",
+      "location": "Freelance",
+      "image": "/nqodit.png",
+      "description": "USA bazlı bir firmaya, HTML, CSS ve Javascript ile birlikte yoğun animasyon ve efektlerin olduğu bir SPA (Single Page Application) tasarlayıp kodladım.",
+      "links": [
+        {
+          "title": "Source",
+          "icon": "github",
+          "href": "https://github.com/Karakannn/nQodit"
+        },
+        {
+          "title": "Website",
+          "icon": "globe",
+          "href": "https://nqod.it/index.htm"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "eminkarakan0@gmail.com",
+    "tel": "+123456789",
+    "social": {
+      "GitHub": {
+        "name": "GitHub",
+        "url": "https://github.com/Karakannn",
+        "icon": "Icons.github",
+        "navbar": true
+      },
+      "LinkedIn": {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mehmet-emin-k-a1597b190/",
+        "icon": "Icons.linkedin",
+        "navbar": true
+      },
+      "X": {
+        "name": "X",
+        "url": "https://x.com/MehmetE08339585",
+        "icon": "Icons.x",
+        "navbar": true
+      },
+      "email": {
+        "name": "E-posta Gönder",
+        "url": "eminkarakan0@gmail.com",
+        "icon": "Icons.email",
+        "navbar": false
+      }
+    }
+  },
+  "ui": {
+    "skillsTitle": "Yetenekler",
+    "contactBadge": "İletişim",
+    "contactTitle": "Benimle İletişime Geçin",
+    "contactDescription": "Twitter üzerinden direkt bir soru",
+    "contactLinkText": "sorun ve fırsat bulduğumda yanıtlayacağım.",
+    "aboutTitle": "Hakkımda",
+    "projectsBadge": "Projeler",
+    "projectsTitle": "Geliştirdiğim Projeler",
+    "projectsDescription": "Burada göreceğiniz projeler, farklı teknolojiler ve yaklaşımlarla geliştirdiğim çalışmalarımdan seçkiler. Her proje, belirli bir probleme çözüm getirmek veya bir ihtiyacı karşılamak amacıyla tasarlandı ve geliştirildi.",
+    "experienceTitle": "Deneyim",
+    "educationTitle": "Eğitim",
+    "languageSwitcher": "Dil Değiştir"
+  }
+}

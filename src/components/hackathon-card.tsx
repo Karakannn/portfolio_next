@@ -2,6 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { MapPin } from "lucide-react";
 import Link from "next/link";
+import { Icons } from "./icons";
 
 interface Props {
   title: string;
@@ -10,13 +11,24 @@ interface Props {
   location: string;
   image?: string;
   links?: readonly {
-    icon: React.ReactNode;
+    icon: string;
     title: string;
     href: string;
   }[];
 }
 
 export function HackathonCard({ title, description, dates, location, image, links }: Props) {
+  const getIconComponent = (iconName: string) => {
+    const normalizedIconName = iconName.toLowerCase().trim();
+
+    if (normalizedIconName in Icons) {
+      const IconComponent = Icons[normalizedIconName as keyof typeof Icons];
+      return <IconComponent className="h-4 w-4" />;
+    }
+
+    return <Icons.globe className="h-4 w-4" />;
+  };
+
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
@@ -30,7 +42,7 @@ export function HackathonCard({ title, description, dates, location, image, link
         <h2 className="font-semibold leading-none">{title}</h2>
         {location && (
           <div className="flex gap-1 items-center pt-1">
-            <MapPin className="size-3 text-muted-foreground"/>
+            <MapPin className="size-3 text-muted-foreground" />
             <p className="text-sm text-muted-foreground">{location}</p>
           </div>
         )}
@@ -41,7 +53,7 @@ export function HackathonCard({ title, description, dates, location, image, link
           {links?.map((link, idx) => (
             <Link href={link.href} key={idx}>
               <Badge key={idx} title={link.title} className="flex gap-2">
-                {link.icon}
+                {getIconComponent(link.icon)}
                 {link.title}
               </Badge>
             </Link>
